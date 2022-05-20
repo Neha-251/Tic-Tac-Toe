@@ -1,0 +1,150 @@
+
+#gameCont{
+    display: flex;
+    margin: 20px auto;
+    width: 80%;
+    color: rgb(23,21,68);
+    border: 1px solid rgb(23,21,68);
+    background-color: aquamarine;
+}
+
+#container{
+    height: 500px;
+    width: 500px;
+    padding: 10px;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 120px;
+}
+
+
+.div1{
+    border-right: 2px solid ;
+    border-bottom: 2px solid ;
+    cursor: pointer;
+ 
+    
+}
+
+
+.cont{
+    height:  110px;
+    width: 110px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+
+.cont:hover{
+    background-color: rgb(226, 208, 243);
+}
+
+
+#box{
+    /* justify-content: center;
+    align-items: center; */
+    margin: 40px;
+   
+}
+
+
+.div2{
+    border-right: 2px solid ;
+    cursor: pointer;
+    border-bottom: 2px solid ;
+}
+
+
+.div3{
+    cursor: pointer;
+   
+    border-bottom: 2px solid ;
+}
+
+.div4{
+    border-right: 2px solid ;
+    border-bottom: 2px solid ;
+    cursor: pointer;
+}
+
+
+.div5{
+    border-right: 2px solid ;
+    border-bottom: 2px solid ;
+    cursor: pointer;
+}
+
+
+.div6{
+   
+    border-bottom: 2px solid ;
+    cursor: pointer;
+}
+
+
+.div7{
+    border-right: 2px solid ;
+    cursor: pointer;
+   
+}
+
+
+.div8{
+    border-right: 2px solid ;
+    cursor: pointer;
+    
+}
+
+.div9{
+   
+    cursor: pointer;
+    
+}
+
+
+#sideDiv{
+    width: 40%;
+    margin: 50px auto;
+    font-size: 30px;
+    color: deeppink;
+    font-weight: 600;
+}
+
+#win{
+    margin-top: 30px;
+    font-size: 50px;
+}
+
+#info{
+    margin-top: 50px;
+    background-color: cadetblue;
+}
+
+button{
+    background-color: transparent;
+    height: 50px;
+    font-weight: 600;
+    color: rgb(23,21,68);
+    padding: 10px 30px;
+    border: 2px solid deeppink;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+
+#congrats{
+    background-image: url("./music/congrats-3.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0;
+    margin-left: 180px;
+    display: none;
+    height:580px;
+    width: 1550px;
+    position: absolute;
+    opacity: 30%;
+}
