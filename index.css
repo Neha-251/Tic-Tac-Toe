@@ -18,6 +18,20 @@
     font-size: 120px;
 }
 
+nav{
+    display: flex;
+    background-color: midnightblue;
+    height: 50px;
+    padding: 10px 30px;
+    margin: 0;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    color: gold;
+    text-shadow: 2px 2px 2px silver;
+}
 
 .div1{
     border-right: 2px solid ;
